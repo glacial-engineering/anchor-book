@@ -27,7 +27,7 @@ cargo install --git https://github.com/project-serum/anchor avm --locked --force
 On Linux systems you may need to install additional dependencies if cargo install fails. E.g. on Ubuntu:
 
 ```
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y pkg-config build-essential libudev-dev
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y pkg-config build-essential libudev-dev libssl-dev
 ```
 
 Install the latest version of the CLI using `avm`, and then set it to be the version to use.
